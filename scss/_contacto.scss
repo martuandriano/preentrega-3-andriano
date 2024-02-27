@@ -1,0 +1,30 @@
+.pantalla-contacto {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    margin-bottom: 100px;
+    margin-left: 135px;
+    margin-right: 120px;
+
+    .texto-contacto-cont {
+        margin-left: 50px;
+
+        .datos {
+            padding-bottom: 15px;
+
+            .titulo-contacto {
+                font-size: 18px;
+                font-family: 'Inter', sans-serif;
+                font-weight: 500;
+                color: #6599C0;
+            }
+
+            .texto-contacto {
+                font-size: 17px;
+                font-family: 'Inter', sans-serif;
+                font-weight: 400;
+            }
+        }
+
+    }
+}

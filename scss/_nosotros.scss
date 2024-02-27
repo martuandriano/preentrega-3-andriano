@@ -1,0 +1,33 @@
+.texto-nosotros-cont {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto;
+    row-gap: 50px;
+    margin-bottom: 100px;
+
+    .texto-nosotros {
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+
+        .titulo-nos {
+            font-size: 25px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 500;
+            color: #6599C0;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .desc-nos {
+            font-size: 20px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            width: 800px;
+            text-align: center;
+            display: flex;
+            align-self: center;
+        }
+    }
+}

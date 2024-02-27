@@ -333,4 +333,61 @@ header nav .redes .logo-fb {
   width: 50%;
 }
 
+.texto-nosotros-cont {
+  display: grid;
+  grid-template-columns: 100vw;
+  grid-template-rows: auto;
+  row-gap: 50px;
+  margin-bottom: 100px;
+}
+.texto-nosotros-cont .texto-nosotros {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+}
+.texto-nosotros-cont .texto-nosotros .titulo-nos {
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #6599C0;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.texto-nosotros-cont .texto-nosotros .desc-nos {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  width: 800px;
+  text-align: center;
+  display: flex;
+  align-self: center;
+}
+
+.pantalla-contacto {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  margin-bottom: 100px;
+  margin-left: 135px;
+  margin-right: 120px;
+}
+.pantalla-contacto .texto-contacto-cont {
+  margin-left: 50px;
+}
+.pantalla-contacto .texto-contacto-cont .datos {
+  padding-bottom: 15px;
+}
+.pantalla-contacto .texto-contacto-cont .datos .titulo-contacto {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #6599C0;
+}
+.pantalla-contacto .texto-contacto-cont .datos .texto-contacto {
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
 /*# sourceMappingURL=styles.css.map */

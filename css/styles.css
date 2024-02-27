@@ -20,24 +20,24 @@ header nav {
   z-index: 1000;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
 }
-header nav div {
+header nav .logo-container {
   width: 5%;
   margin-left: 30px;
   display: flex;
   justify-content: center;
 }
-header nav div img {
+header nav .logo-container .logo-isotipo {
   width: 55px;
   padding: 15px;
 }
-header nav div ul {
+header nav div .lista-menu {
   display: flex;
   justify-content: space-between;
   width: 100%;
   align-items: center;
   list-style-type: none;
 }
-header nav div ul li {
+header nav div .lista-menu .menu {
   display: flex;
   justify-content: center;
   font-family: "Inter", sans-serif;
@@ -47,16 +47,153 @@ header nav div ul li {
   color: #6599C0;
   padding: 20px;
 }
-header nav div {
+header nav .redes {
   display: flex;
   margin-top: 5px;
   margin-right: 40px;
 }
-header nav div div img {
+header nav .redes .logo-ig {
   width: 25px;
   margin-right: 7px;
 }
-header nav div div img {
+header nav .redes .logo-fb {
+  width: 25px;
+  margin-left: 7px;
+}
+
+.pantalla-inicio {
+  position: relative;
+}
+.pantalla-inicio .castillo {
+  width: 100vw;
+  margin-top: 70px;
+}
+.pantalla-inicio .logo-inicio {
+  position: absolute;
+  top: 23%;
+  left: 25%;
+  width: 50vw;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  margin-left: 96px;
+  margin-bottom: 90px;
+}
+.grid1 .h1 {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: left;
+  z-index: 50;
+}
+.grid1 .h1 h1 {
+  font-family: "Fira Sans Condensed";
+  font-size: 75px;
+  color: #6599C0;
+  width: 700px;
+}
+.grid1 .globos-grid {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 400px repeat(3, 325px);
+  row-gap: 100px;
+  margin-left: 96px;
+  margin-right: 96px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.grid .imagenes-inicio-cont {
+  display: flex;
+  align-items: center;
+}
+.grid .imagenes-inicio-cont .imagenes-inicio {
+  width: 100%;
+  border-radius: 10px;
+}
+.grid .texto-inicio {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-self: center;
+}
+.grid .texto-inicio h2 {
+  font-family: "Fira Sans Condensed";
+  font-size: 80px;
+  color: #6599C0;
+}
+.grid .texto-inicio .desc-inicio {
+  font-family: "Fira Sans Condensed";
+  font-size: 30px;
+  color: #6599C0;
+  width: 450px;
+  text-align: center;
+}
+
+.footer-container {
+  background-color: white;
+  display: flex;
+  width: 100vw;
+  height: 350px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+}
+.footer-container .footer {
+  height: 350px;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 20% 25% 35% 10%;
+  column-gap: 40px;
+}
+.footer-container .footer .marca {
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  display: flex;
+  align-self: end;
+  margin-bottom: 10px;
+}
+.footer-container .footer .footer-logo {
+  display: flex;
+  align-self: center;
+  margin-bottom: 10px;
+}
+.footer-container .footer .footer-logo .logotipo-footer {
+  width: 300px;
+}
+.footer-container .footer .info-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.footer-container .footer .redes2 {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  align-self: end;
+  justify-content: flex-end;
+}
+.footer-container .footer .redes2 .logo-ig {
+  width: 25px;
+  margin-right: 7px;
+}
+.footer-container .footer .redes2 .logo-fb {
   width: 25px;
   margin-left: 7px;
 }

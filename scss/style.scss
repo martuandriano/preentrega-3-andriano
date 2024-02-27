@@ -1,4 +1,13 @@
+// tipografia
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@800&family=Inter:wght@400;500;600&display=swap');
 
+// estilo general
+* {
+    margin: 0;
+    padding: 0;
 
+}
 
 @import 'header';
+@import 'home';
+@import 'footer';

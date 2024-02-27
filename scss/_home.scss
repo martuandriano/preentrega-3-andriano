@@ -1,0 +1,87 @@
+.pantalla-inicio {
+    position: relative;
+
+    .castillo {
+        width: 100vw;
+        margin-top: 70px;
+
+    }
+
+    .logo-inicio {
+        position: absolute;
+        top: 23%;
+        left: 25%;
+        width: 50vw;
+    }
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    margin-left: 96px;
+    margin-bottom: 90px;
+
+    .h1 {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        text-align: left;
+        z-index: 50;
+
+        h1 {
+            font-family: 'Fira Sans Condensed';
+            font-size: 75px;
+            color: #6599C0;
+            width: 700px;
+        }
+    }
+
+    .globos-grid {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end
+    }
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px repeat(3, 325px);
+    row-gap: 100px;
+    margin-left: 96px;
+    margin-right: 96px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+
+    .imagenes-inicio-cont {
+        display: flex;
+        align-items: center;
+
+        .imagenes-inicio {
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+
+    .texto-inicio {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-self: center;
+
+        h2 {
+            font-family: 'Fira Sans Condensed';
+            font-size: 80px;
+            color: #6599C0;
+        }
+
+        .desc-inicio {
+            font-family: 'Fira Sans Condensed';
+            font-size: 30px;
+            color: #6599C0;
+            width: 450px;
+            text-align: center;
+        }
+    }
+}

@@ -35,8 +35,6 @@ header {
             }
         }
 
-
-
         div {
 
             ul {
@@ -46,7 +44,7 @@ header {
                 align-items: center;
                 list-style-type: none;
 
-                li {
+                a {
                     display: flex;
                     justify-content: center;
                     font-family: 'Inter', sans-serif;
@@ -71,7 +69,6 @@ header {
                     margin-right: 7px;
                 }
             }
-
 
             div {
                 img {

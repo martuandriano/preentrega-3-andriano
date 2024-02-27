@@ -1,0 +1,54 @@
+.h5 {
+    display: flex;
+    text-align: center;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+
+    h5 {
+        font-family: 'Fira Sans Condensed';
+        font-size: 50px;
+        color: #6599C0;
+    }
+}
+
+.grid-servivios {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 300px;
+    row-gap: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    align-items: center;
+
+    .desc-servicios {
+        display: flex;
+        align-self: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+
+        h6 {
+            font-family: 'Fira Sans Condensed';
+            font-size: 35px;
+            color: #6599C0;
+            width: 500px;
+        }
+
+        .descs {
+            font-size: 20px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            width: 380px;
+        }
+
+    }
+
+    .imagenes-servicios {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+}

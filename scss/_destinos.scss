@@ -1,0 +1,54 @@
+.grid-destinos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 370px;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 145px;
+    margin-bottom: 100px;
+    row-gap: 145px;
+
+    .Disney {
+        display: flex;
+        align-self: end;
+        flex-direction: column;
+
+        #logo-wdw {
+            width: 60%;
+        }
+
+    }
+
+    .especif {
+        font-size: 19px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        color: #6599C0;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    .desc-destinos {
+        font-size: 17px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+
+        li {
+            padding-top: 1px;
+            padding-bottom: 1px;
+        }
+    }
+
+    .fotos-destinos {
+        width: 100%;
+        display: flex;
+        align-self: center;
+        border-radius: 10px;
+    }
+
+    .logo-destino {
+        width: 50%;
+    }
+
+
+}

@@ -12,16 +12,15 @@
             padding-bottom: 15px;
 
             .titulo-contacto {
-                font-size: 18px;
+                @include font (18px, #6599C0, 500);
                 font-family: 'Inter', sans-serif;
-                font-weight: 500;
-                color: #6599C0;
+
             }
 
             .texto-contacto {
-                font-size: 17px;
+                @include font (17px, black, 400);
                 font-family: 'Inter', sans-serif;
-                font-weight: 400;
+
             }
 
             .redes-contacto {

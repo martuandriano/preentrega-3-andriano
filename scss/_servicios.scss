@@ -9,8 +9,7 @@
 
     h5 {
         font-family: 'Fira Sans Condensed';
-        font-size: 50px;
-        color: #6599C0;
+        @include font (50px,#6599C0, 1);
     }
 }
 
@@ -30,15 +29,13 @@
 
         h6 {
             font-family: 'Fira Sans Condensed';
-            font-size: 35px;
-            color: #6599C0;
+            @include font (35px, #6599C0, 1);
             width: 500px;
         }
 
         .descs {
-            font-size: 20px;
+            @include font (20px, black, 400);
             font-family: 'Inter', sans-serif;
-            font-weight: 400;
             width: 380px;
         }
 

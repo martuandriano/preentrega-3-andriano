@@ -9,11 +9,9 @@ header {
 }
 header nav {
   background-color: white;
-  display: flex;
   width: 100vw;
   height: 70px;
   justify-content: space-between;
-  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -31,20 +29,18 @@ header nav .logo-container .logo-isotipo {
   padding: 15px;
 }
 header nav div .lista-menu {
-  display: flex;
   justify-content: space-between;
   width: 100%;
-  align-items: center;
   list-style-type: none;
 }
 header nav div .lista-menu .menu {
   display: flex;
   justify-content: center;
   font-family: "Inter", sans-serif;
-  font-weight: 600;
   text-decoration: none;
   font-size: 15px;
   color: #6599C0;
+  font-weight: 600;
   padding: 20px;
 }
 header nav .redes {
@@ -81,9 +77,7 @@ header nav .redes .logo-fb {
   margin-bottom: 90px;
 }
 .grid1 .h1 {
-  display: flex;
   flex-direction: column;
-  align-self: center;
   text-align: left;
   z-index: 50;
 }
@@ -91,6 +85,7 @@ header nav .redes .logo-fb {
   font-family: "Fira Sans Condensed";
   font-size: 75px;
   color: #6599C0;
+  font-weight: 1;
   width: 700px;
 }
 .grid1 .globos-grid {
@@ -117,11 +112,13 @@ header nav .redes .logo-fb {
   font-family: "Fira Sans Condensed";
   font-size: 80px;
   color: #6599C0;
+  font-weight: 1;
 }
 .grid .texto-inicio .desc-inicio {
   font-family: "Fira Sans Condensed";
   font-size: 30px;
   color: #6599C0;
+  font-weight: 1;
   width: 450px;
   text-align: center;
 }
@@ -144,15 +141,12 @@ header nav .redes .logo-fb {
 }
 .footer-container .footer .marca {
   font-size: 15px;
-  font-family: "Inter", sans-serif;
+  color: black;
   font-weight: 500;
-  display: flex;
-  align-self: end;
+  font-family: "Inter", sans-serif;
   margin-bottom: 10px;
 }
 .footer-container .footer .footer-logo {
-  display: flex;
-  align-self: center;
   margin-bottom: 10px;
 }
 .footer-container .footer .footer-logo .logotipo-footer {
@@ -162,23 +156,23 @@ header nav .redes .logo-fb {
   justify-content: center;
   width: 400px;
   font-family: "Inter", sans-serif;
-  font-weight: 400;
   font-size: 18px;
+  color: black;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 .footer-container .footer .redes2 {
   margin-top: 5px;
   margin-bottom: 10px;
-  align-self: end;
   justify-content: flex-end;
 }
 .footer-container .footer .redes2 .logo-ig {
   width: 25px;
   margin-right: 7px;
 }
-.footer-container .footer .redes2 .logo-fb {
+.footer-container .footer .redes2 .logo-ig {
   width: 25px;
-  margin-left: 7px;
+  margin-right: 7px;
 }
 
 .pantalla-secciones {
@@ -190,8 +184,6 @@ header nav .redes .logo-fb {
   margin-top: 70px;
 }
 .pantalla-secciones .pantalla-servicios {
-  display: flex;
-  align-self: center;
   flex-direction: column;
   margin-bottom: 20px;
 }
@@ -201,6 +193,7 @@ header nav .redes .logo-fb {
   font-family: "Fira Sans Condensed";
   font-size: 85px;
   color: #6599C0;
+  font-weight: 1;
   z-index: 500;
   justify-content: center;
   text-align: left;
@@ -209,14 +202,13 @@ header nav .redes .logo-fb {
   display: flex;
   position: relative;
   font-size: 25px;
-  font-family: "Inter", sans-serif;
+  color: black;
   font-weight: 400;
+  font-family: "Inter", sans-serif;
   width: 400px;
   z-index: 500;
 }
 .pantalla-secciones .imagen-secciones-conteiner {
-  display: flex;
-  align-items: center;
   justify-content: flex-end;
 }
 .pantalla-secciones .imagen-secciones-conteiner .imagen-secciones {
@@ -236,6 +228,7 @@ header nav .redes .logo-fb {
   font-family: "Fira Sans Condensed";
   font-size: 50px;
   color: #6599C0;
+  font-weight: 1;
 }
 
 .grid-servivios {
@@ -247,8 +240,6 @@ header nav .redes .logo-fb {
   align-items: center;
 }
 .grid-servivios .desc-servicios {
-  display: flex;
-  align-self: center;
   flex-direction: column;
   margin-bottom: 20px;
 }
@@ -256,12 +247,14 @@ header nav .redes .logo-fb {
   font-family: "Fira Sans Condensed";
   font-size: 35px;
   color: #6599C0;
+  font-weight: 1;
   width: 500px;
 }
 .grid-servivios .desc-servicios .descs {
   font-size: 20px;
-  font-family: "Inter", sans-serif;
+  color: black;
   font-weight: 400;
+  font-family: "Inter", sans-serif;
   width: 380px;
 }
 .grid-servivios .imagenes-servicios {
@@ -278,25 +271,24 @@ header nav .redes .logo-fb {
   row-gap: 145px;
 }
 .grid-destinos .Disney {
-  display: flex;
-  align-self: end;
   flex-direction: column;
 }
 .grid-destinos .Disney #logo-wdw {
   width: 60%;
 }
 .grid-destinos .especif {
-  font-size: 19px;
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-size: 19px;
   color: #6599C0;
+  font-weight: 500;
   padding-bottom: 5px;
   padding-top: 5px;
 }
 .grid-destinos .desc-destinos {
   font-size: 17px;
-  font-family: "Inter", sans-serif;
+  color: black;
   font-weight: 400;
+  font-family: "Inter", sans-serif;
 }
 .grid-destinos .desc-destinos li {
   padding-top: 1px;
@@ -304,8 +296,6 @@ header nav .redes .logo-fb {
 }
 .grid-destinos .fotos-destinos {
   width: 100%;
-  display: flex;
-  align-self: center;
   border-radius: 10px;
 }
 .grid-destinos .logo-destino {
@@ -326,26 +316,23 @@ header nav .redes .logo-fb {
   justify-content: center;
 }
 .texto-nosotros-cont .texto-nosotros .titulo-nos {
-  font-size: 25px;
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-size: 25px;
   color: #6599C0;
+  font-weight: 500;
   text-align: center;
   margin-bottom: 15px;
 }
 .texto-nosotros-cont .texto-nosotros .desc-nos {
-  font-size: 20px;
   font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: black;
   font-weight: 400;
   width: 800px;
   text-align: center;
-  display: flex;
-  align-self: center;
 }
 
 .pantalla-contacto {
-  display: grid;
-  grid-template-columns: 50% 50%;
   grid-template-rows: auto;
   margin-bottom: 100px;
   margin-left: 135px;
@@ -359,32 +346,38 @@ header nav .redes .logo-fb {
 }
 .pantalla-contacto .texto-contacto-cont .datos .titulo-contacto {
   font-size: 18px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
   color: #6599C0;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
 }
 .pantalla-contacto .texto-contacto-cont .datos .texto-contacto {
   font-size: 17px;
-  font-family: "Inter", sans-serif;
+  color: black;
   font-weight: 400;
+  font-family: "Inter", sans-serif;
 }
 .pantalla-contacto .texto-contacto-cont .datos .redes-contacto {
   display: flex;
 }
 
-.grid1, .grid, .grid-servivios, .grid-destinos {
+.grid1, .grid, .grid-servivios, .grid-destinos, .pantalla-contacto {
   display: grid;
   grid-template-columns: 50% 50%;
 }
 
-.grid1 .globos-grid, .grid .imagenes-inicio-cont, .grid .texto-inicio, .footer-container, .footer-container .footer .info-footer {
+header nav, header nav div .lista-menu, .grid1 .globos-grid, .grid .imagenes-inicio-cont, .grid .texto-inicio, .footer-container, .footer-container .footer .info-footer, .pantalla-secciones .imagen-secciones-conteiner {
   display: flex;
   align-items: center;
 }
 
-.footer-container .footer .redes2 {
+.footer-container .footer .marca, .footer-container .footer .redes2, .grid-destinos .Disney {
   display: flex;
   align-self: end;
+}
+
+.grid1 .h1, .footer-container .footer .footer-logo, .pantalla-secciones .pantalla-servicios, .grid-servivios .desc-servicios, .grid-destinos .fotos-destinos, .texto-nosotros-cont .texto-nosotros .desc-nos {
+  display: flex;
+  align-self: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

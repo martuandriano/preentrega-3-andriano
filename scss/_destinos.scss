@@ -18,18 +18,15 @@
     }
 
     .especif {
-        font-size: 19px;
         font-family: 'Inter', sans-serif;
-        font-weight: 500;
-        color: #6599C0;
+        @include font (19px, #6599C0, 500);
         padding-bottom: 5px;
         padding-top: 5px;
     }
 
     .desc-destinos {
-        font-size: 17px;
+        @include font (17px, black, 400);
         font-family: 'Inter', sans-serif;
-        font-weight: 400;
 
         li {
             padding-top: 1px;
@@ -39,7 +36,7 @@
 
     .fotos-destinos {
         width: 100%;
-        @extend %flex-self-center
+        @extend %flex-self-center;
         border-radius: 10px;
     }
 

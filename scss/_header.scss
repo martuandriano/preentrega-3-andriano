@@ -1,7 +1,10 @@
 
+@import 'base/mixin';
 
 // inicio header
+
 header {
+
     width: 100vw;
 
     nav {
@@ -41,10 +44,8 @@ header {
                     display: flex;
                     justify-content: center;
                     font-family: 'Inter', sans-serif;
-                    font-weight: 600;
                     text-decoration: none;
-                    font-size: 15px;
-                    color: #6599C0;
+                    @include font (15px, #6599C0, 600);
                     padding: 20px;
 
                 }

@@ -16,16 +16,14 @@
         column-gap: 40px;
 
         .marca {
-            font-size: 15px;
+            @include font (15px, black, 500);
             font-family: 'Inter', sans-serif;
-            font-weight: 500;
-            display: flex;
-            align-self: end;
+            @extend %flex-self-end;
             margin-bottom: 10px;
         }
 
         .footer-logo {
-            @extend %flex-self-center
+            @extend %flex-self-center;
             margin-bottom: 10px;
 
             .logotipo-footer {
@@ -38,8 +36,7 @@
             justify-content: center;
             width: 400px;
             font-family: 'Inter', sans-serif;
-            font-weight: 400;
-            font-size: 18px;
+            @include font (18px, black, 400);
             margin-bottom: 10px;
         }
 

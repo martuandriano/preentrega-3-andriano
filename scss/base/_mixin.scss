@@ -1,0 +1,8 @@
+@mixin font ($size, $color, $font-weight){
+    font-size: $size;
+    color: $color;
+    font-weight: $font-weight;
+}
+
+// #6599C0
+// @include font (50px, black, 400);

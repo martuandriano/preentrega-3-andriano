@@ -1,6 +1,5 @@
 .grid-destinos {
-    display: grid;
-    grid-template-columns: 50% 50%;
+    @extend %grid;
     grid-template-rows: 370px;
     margin-top: 150px;
     margin-left: 150px;
@@ -9,8 +8,7 @@
     row-gap: 145px;
 
     .Disney {
-        display: flex;
-        align-self: end;
+        @extend %flex-self-end;
         flex-direction: column;
 
         #logo-wdw {
@@ -41,8 +39,7 @@
 
     .fotos-destinos {
         width: 100%;
-        display: flex;
-        align-self: center;
+        @extend %flex-self-center
         border-radius: 10px;
     }
 

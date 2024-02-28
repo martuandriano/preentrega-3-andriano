@@ -16,16 +16,14 @@
 }
 
 .grid1 {
-    display: grid;
-    grid-template-columns: 50% 50%;
+    @extend %grid;
     grid-template-rows: auto;
     margin-left: 96px;
     margin-bottom: 90px;
 
     .h1 {
-        display: flex;
+        @extend %flex-self-center
         flex-direction: column;
-        align-self: center;
         text-align: left;
         z-index: 50;
 
@@ -38,15 +36,13 @@
     }
 
     .globos-grid {
-        display: flex;
-        align-items: center;
+        @extend %flex-items-center;
         justify-content: flex-end
     }
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: 50% 50%;
+    @extend %grid;
     grid-template-rows: 400px repeat(3, 325px);
     row-gap: 100px;
     margin-left: 96px;
@@ -55,9 +51,8 @@
     margin-top: 50px;
 
     .imagenes-inicio-cont {
-        display: flex;
-        align-items: center;
-
+        @extend %flex-items-center;
+        
         .imagenes-inicio {
             width: 100%;
             border-radius: 10px;
@@ -65,8 +60,7 @@
     }
 
     .texto-inicio {
-        display: flex;
-        align-items: center;
+        @extend %flex-items-center;
         flex-direction: column;
         align-self: center;
 

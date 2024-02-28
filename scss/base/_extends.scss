@@ -1,0 +1,25 @@
+%grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+%flex-items-center {
+    display: flex;
+    align-items: center;
+}
+
+%flex-self-end {
+    display: flex;
+    align-self: end;
+}
+
+%flex-self-center {
+    display: flex;
+    align-self: center;
+}
+
+@extend %flex-items-center;
+@extend %flex-self-end;
+@extend %flex-self-center
+@extend %grid;

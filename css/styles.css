@@ -76,8 +76,6 @@ header nav .redes .logo-fb {
 }
 
 .grid1 {
-  display: grid;
-  grid-template-columns: 50% 50%;
   grid-template-rows: auto;
   margin-left: 96px;
   margin-bottom: 90px;
@@ -96,14 +94,10 @@ header nav .redes .logo-fb {
   width: 700px;
 }
 .grid1 .globos-grid {
-  display: flex;
-  align-items: center;
   justify-content: flex-end;
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: 50% 50%;
   grid-template-rows: 400px repeat(3, 325px);
   row-gap: 100px;
   margin-left: 96px;
@@ -111,17 +105,11 @@ header nav .redes .logo-fb {
   margin-bottom: 100px;
   margin-top: 50px;
 }
-.grid .imagenes-inicio-cont {
-  display: flex;
-  align-items: center;
-}
 .grid .imagenes-inicio-cont .imagenes-inicio {
   width: 100%;
   border-radius: 10px;
 }
 .grid .texto-inicio {
-  display: flex;
-  align-items: center;
   flex-direction: column;
   align-self: center;
 }
@@ -140,11 +128,9 @@ header nav .redes .logo-fb {
 
 .footer-container {
   background-color: white;
-  display: flex;
   width: 100vw;
   height: 350px;
   justify-content: space-between;
-  align-items: center;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
 }
 .footer-container .footer {
@@ -173,8 +159,6 @@ header nav .redes .logo-fb {
   width: 300px;
 }
 .footer-container .footer .info-footer {
-  display: flex;
-  align-items: center;
   justify-content: center;
   width: 400px;
   font-family: "Inter", sans-serif;
@@ -183,7 +167,6 @@ header nav .redes .logo-fb {
   margin-bottom: 10px;
 }
 .footer-container .footer .redes2 {
-  display: flex;
   margin-top: 5px;
   margin-bottom: 10px;
   align-self: end;
@@ -256,8 +239,6 @@ header nav .redes .logo-fb {
 }
 
 .grid-servivios {
-  display: grid;
-  grid-template-columns: 50% 50%;
   grid-template-rows: 300px;
   row-gap: 100px;
   margin-left: 150px;
@@ -289,8 +270,6 @@ header nav .redes .logo-fb {
 }
 
 .grid-destinos {
-  display: grid;
-  grid-template-columns: 50% 50%;
   grid-template-rows: 370px;
   margin-top: 150px;
   margin-left: 150px;
@@ -388,6 +367,24 @@ header nav .redes .logo-fb {
   font-size: 17px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
+}
+.pantalla-contacto .texto-contacto-cont .datos .redes-contacto {
+  display: flex;
+}
+
+.grid1, .grid, .grid-servivios, .grid-destinos {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.grid1 .globos-grid, .grid .imagenes-inicio-cont, .grid .texto-inicio, .footer-container, .footer-container .footer .info-footer {
+  display: flex;
+  align-items: center;
+}
+
+.footer-container .footer .redes2 {
+  display: flex;
+  align-self: end;
 }
 
 /*# sourceMappingURL=styles.css.map */

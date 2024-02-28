@@ -7,8 +7,7 @@
     margin-top: 70px;
 
     .pantalla-servicios {
-        display: flex;
-        align-self: center;
+        @extend %flex-self-center
         flex-direction: column;
         margin-bottom: 20px;
 
@@ -37,8 +36,7 @@
     }
 
     .imagen-secciones-conteiner {
-        display: flex;
-        align-items: center;
+        @extend %flex-items-center;
         justify-content: flex-end;
 
         .imagen-secciones {

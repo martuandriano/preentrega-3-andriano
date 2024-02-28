@@ -1,6 +1,5 @@
 .pantalla-contacto {
-    display: grid;
-    grid-template-columns: 50% 50%;
+    @extend %grid;
     grid-template-rows: auto;
     margin-bottom: 100px;
     margin-left: 135px;
@@ -24,6 +23,11 @@
                 font-family: 'Inter', sans-serif;
                 font-weight: 400;
             }
+
+            .redes-contacto {
+                display: flex;
+            }
+
         }
 
     }

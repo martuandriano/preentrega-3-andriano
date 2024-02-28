@@ -1,17 +1,15 @@
 
 
-
 // inicio header
 header {
     width: 100vw;
 
     nav {
         background-color: white;
-        display: flex;
+        @extend %flex-items-center;
         width: 100vw;
         height: 70px;
         justify-content: space-between;
-        align-items: center;
         position: fixed;
         top: 0;
         left: 0;
@@ -34,10 +32,9 @@ header {
         div {
 
             .lista-menu {
-                display: flex;
+                @extend %flex-items-center;
                 justify-content: space-between;
                 width: 100%;
-                align-items: center;
                 list-style-type: none;
 
                 .menu {
